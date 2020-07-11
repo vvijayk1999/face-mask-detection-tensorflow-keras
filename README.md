@@ -1,6 +1,18 @@
-# face-mask-detection
-<img src=“https://raw.githubusercontent.com/vvijayk1999/face-mask-detection/master/acc-loss.jpg”>
+# Face Mask Detection using TensorFlow and Keras API
+![alt text](https://raw.githubusercontent.com/vvijayk1999/face-mask-detection/master/acc-loss.jpg)
 
+## Usage
+Dependancies : TensorFlow 
+
+Unzip the dataset and execute 'train.py' script.
+## Testing
+This model correctly classified the below two out of sample images.<br><br>
+![alt text](https://raw.githubusercontent.com/vvijayk1999/face-mask-detection/master/1861.jpg)<br>
+<b>without_mask</b><br><br>
+![alt text](https://raw.githubusercontent.com/vvijayk1999/face-mask-detection/master/2083.jpg)<br>
+<b>with_mask</b>
+
+## Model Summary
 ```console
 Model: "sequential"
 _________________________________________________________________
@@ -33,6 +45,7 @@ Trainable params: 2,413,377
 Non-trainable params: 0
 _________________________________________________________________
 ```
+## Model accuracy and loss per Epoch
 ```console
 Epoch 1/50
 29/29 - 8s - loss: 5.6702 - acc: 0.6042 - val_loss: 1.5418 - val_acc: 0.7556
