@@ -1,5 +1,5 @@
 # face-mask-detection
-
+<img src=“https://raw.githubusercontent.com/vvijayk1999/face-mask-detection/master/acc-loss.jpg”>
 
 ```console
 Model: "sequential"
